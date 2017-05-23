@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>修改题库信息</title>
+</head>
+<body>
+<form action="{:U('admin/question/handleedit')}" method="post" enctype="multipart/form-data">
+		<input type="hidden" name="id" value="{$a['id']}">
+	修改分类 ：<select name="parent">
+			<option value="0">属课</option>
+			<?php foreach($course as $v) { ?>
+			{$v}
+			<?php } ?>
+		</select>
+		<br><br>
+	题干 :
+		<input type="text" name="stem" value="{$a['stem']}">
+		<br><br>
+	obj :
+		<input type="text" name="obj_id" value="{$a['obj_id']}"><br><br>
+	type :
+		<input type="text" name="type" value="{$a['type']}"><br>（1：章节题  2：试卷题）<br><br>
+	解析 :
+		<input type="text" name="explain" value="{$a['explain']}"><br><br>
+	类型 :
+		<input type="text" name="question_type" value="{$a['question_type']}"><br>（1：单、2：多）<br>
+		<br><br>	
+	修改状态 :
+		<input type="text" name="status" value="{$a['status']}"><br><br>
+		<input type="submit" name="">
+
+	</form>
+</body>
+</html>

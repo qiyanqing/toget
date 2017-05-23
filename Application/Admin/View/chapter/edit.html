@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改</title>
+</head>
+<body>
+	<form action="{:U('admin/chapter/handleedit',array('id'=>$chapter['id']))}" method="POST" 
+	enctype="multiipart/form-data">
+	章节名： <input type="text" name="name" value="<?php echo $chapter['name']; ?>"><br>
+	状态：<input type="text" name="status" value="<?php echo $chapter['status']; ?>"><br>
+	分类：<select name="course_id">
+           <?php foreach ($course as $value) { ?>
+          	<option 
+          	<?php 
+          	if($chapter['course_id']==$value['id']) { 
+          		echo 'selected';
+          	}
+          	?> 
+          	value="{$value['id']}">{$value['name']}</option>
+			<?php  } ?>
+			</select>
+		<br> 
+	<input type="submit" name="">
+	</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新增课程</title>
+</head>
+<body>
+    <h2>新增</h2>
+	<form action="{:U('admin/course/handleadd')}" method="POST"enctype="multipart/form-data">
+		名称		:<input type="text" name="name"><br/>
+		课程图片:  <input type="file" name="image"><br/>
+		首页图片:  <input type="file" name="head_image"><br/>
+		分类:   <select name="category_id">
+			<?php foreach ($cate  as $value) { ?>
+				<option value="{$value['id']}">{$value['name']}</option>
+			<?php } ?>
+			   </select>
+		<input type="submit" name="">
+
+
+
+	</form>
+</body>
+</html>

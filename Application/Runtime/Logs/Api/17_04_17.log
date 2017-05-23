@@ -1,0 +1,300 @@
+[ 2017-04-17T12:56:20+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-04-17T12:56:20+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002351s ]
+
+[ 2017-04-17T14:10:55+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0333s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2017-04-17T14:10:55+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0056s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2017-04-17T18:48:48+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.089262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011540s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0905s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0882s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016074s ]
+
+[ 2017-04-17T18:48:48+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.089170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011399s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0395s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-04-17T19:11:10+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.3259s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2017-04-17T19:11:10+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0037s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2017-04-17T19:11:17+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0067s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2017-04-17T19:11:17+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2017-04-17T19:11:20+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0280s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-04-17T19:11:20+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-04-17T19:11:21+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-04-17T19:11:21+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0062s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-04-17T19:11:23+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0055s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2017-04-17T19:11:23+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-04-17T19:11:23+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-04-17T19:11:23+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004340s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0066s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-04-17T19:11:24+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0045s ]
+SQL: SELECT `name` FROM `wb_category` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001847s ]
+
+[ 2017-04-17T19:11:24+08:00 ] 127.0.0.1 /index.php/Api/Homepage/category_right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 13  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 14  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 15  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_category` WHERE `parent_id` = 16  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+

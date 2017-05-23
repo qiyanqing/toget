@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改课程</title>
+</head>
+<body>
+    <h2>修改</h2>
+	<form action="{:U('admin/course/handleedit')}" method="POST"enctype="multipart/form-data">
+		名称		:<input type="text" name="name" value="{$course['name']}"><br/>
+		课程图片:  <input type="file" name="image" value="{$course['image']}"><br/>
+		<img src="{$course['image']}" alt=""width="200" height="200"> <br>
+		首页图片:  <input type="file" name="head_image" value="{$course['head_image']}"><br/>
+		<img src="{$course['head_image']}" alt=""width="200" height="200"> <br>
+		分类:   <select name="category_id">
+			<?php foreach ($cate  as $value) { ?>
+				<option 
+	          <?php 
+	          if ($course["category_id"]==$value['id']) {
+	          	echo 'selected';
+	           }  ?>
+	           value="{$value['id']}">{$value['name']}</option>
+			<?php } ?>
+			   </select>
+		<input type="submit" name="">
+
+
+
+	</form>
+</body>
+</html>

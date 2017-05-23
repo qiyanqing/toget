@@ -1,0 +1,909 @@
+[ 2017-03-26T22:45:30+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-03-26T22:45:31+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-03-26T22:45:42+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-03-26T22:45:43+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-03-26T22:45:43+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-03-26T22:45:43+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-03-26T22:45:43+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-03-26T22:45:44+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-03-26T22:45:51+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-03-26T22:48:31+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-03-26T22:49:09+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2017-03-26T22:49:18+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-03-26T22:49:24+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-03-26T22:49:30+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-03-26T22:49:36+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-03-26T22:49:40+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-03-26T22:52:07+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002392s ]
+
+[ 2017-03-26T22:52:17+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-03-26T22:53:44+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-03-26T22:55:24+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2017-03-26T22:55:28+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-03-26T22:57:57+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-03-26T22:58:05+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-03-26T22:58:10+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'q' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-03-26T22:58:47+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-03-26T22:58:53+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-03-26T22:59:18+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+
+[ 2017-03-26T22:59:21+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002114s ]
+
+[ 2017-03-26T22:59:21+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+
+[ 2017-03-26T23:00:01+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-03-26T23:00:06+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = '' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-03-26T23:00:11+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-03-26T23:00:32+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-03-26T23:00:38+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-03-26T23:00:44+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-03-26T23:00:49+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-03-26T23:01:34+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-03-26T23:01:39+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002634s ]
+
+[ 2017-03-26T23:03:16+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2017-03-26T23:03:39+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-03-26T23:03:43+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-03-26T23:03:48+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-03-26T23:03:55+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-03-26T23:04:58+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-03-26T23:05:10+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-03-26T23:05:27+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2017-03-26T23:07:19+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-03-26T23:14:08+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-03-26T23:15:19+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-03-26T23:17:01+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2017-03-26T23:19:02+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-03-26T23:20:28+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-26T23:21:27+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-03-26T23:22:10+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-03-26T23:22:12+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-26T23:22:13+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-03-26T23:22:32+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-26T23:24:48+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-03-26T23:24:49+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2017-03-26T23:24:51+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-03-26T23:25:17+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-03-26T23:28:37+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-03-26T23:30:26+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: pa F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: a F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2017-03-26T23:31:24+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: value F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-03-26T23:31:50+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: value F:\XAMPP\htdocs\sina\Application\Api\Controller\HomepageController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-03-26T23:35:10+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = '' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-03-26T23:35:21+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2017-03-26T23:35:23+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-03-26T23:35:26+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-03-26T23:35:31+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-03-26T23:36:05+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-03-26T23:36:52+08:00 ] 127.0.0.1 /index.php/Api/Homepage/handlelogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012774s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `user_password` FROM `wb_user` WHERE `user_login` = 'qi' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002413s ]
+

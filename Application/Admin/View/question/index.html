@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>题库列表</title>
+</head>
+<body>
+<table border="1" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>id</td>
+		<td>题干</td>
+		<td>课程id</td>
+		<td>obj_id</td>
+		<td>type</td>
+		<td>explain</td>
+		<td>question_type</td>
+		<td>status</td>
+		<td>操作</td>
+	</tr>
+	<?php foreach ($lists as $value) { ?>
+	<tr>
+		<td>{$value['id']}</td>
+		<td>{$value['stem']}</td>
+		<td>{$value['course_id']}</td>
+		<td>{$value['obj_id']}</td>
+		<td>{$value['type']}</td>
+		<td>{$value['explain']}</td>
+		<td>{$value['question_type']}</td>
+		<td>{$value['status']}</td>
+		<td><a href="http://toget.cn/index.php/admin/question/edit?id={$value[id]}">修改</a>
+			<a href="http://toget.cn/index.php/admin/question/delete?id={$value[id]}">删除</a>
+			</td>
+	</tr>
+	<?php } ?>
+</table>
+</body>
+</html>

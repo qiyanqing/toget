@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>用户列表</title>
+    
+
+</head>
+<body>
+      <a href="{:U('admin/user/reg')}">注册</a>
+  <table>
+    <tr>
+      <td>id</td>
+      <td>phone</td>
+      <td>name</td>
+      <td>email</td>
+      <td>操作</td>
+    </tr>
+    <?php foreach ($lists as  $value) { ?>
+    <tr>
+         <td><?php echo $value['id'] ;        ?></td>
+         <td><?php echo $value['phone'] ;    ?></td>
+         <td><?php echo $value['name'] ;    ?></td>
+         <td><?php echo $value['email'] ;    ?></td>
+         <td>
+            <a href="{:U('admin/user/edit',array('id'=>$value['id']))}">修改</a>
+            <a href="{:U('admin/user/delete',array('id'=>$value['id']))}">删除</a>
+
+
+         </td>
+    </tr>
+        <?php } ?>
+
+
+
+
+  </table>
+</body>
+</html>

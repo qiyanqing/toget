@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>章节添加</title>
+</head>
+<body>
+	<form action="{:U('admin/test/handleadd')}" method="POST" enctype="multipart/form-data">
+		章节名<input type="text" name="name"><br>
+		所属课程<select name="course_id">
+		<?php foreach ($course as $value) { ?>
+        <option value="<?php echo $value['id'];?>"><?php echo $value['name'];?></option>
+		<?php } ?>  
+		</select>
+		<br>	
+		状态<input type="text" name="status"><br>
+		<input type="submit" name="">
+	</form>
+</body>
+</html>

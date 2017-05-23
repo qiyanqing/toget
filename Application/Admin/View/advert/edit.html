@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>修改广告信息</title>
+</head>
+<body>
+<form action="{:U('admin/advert/handleedit')}" method="post" enctype="multipart/form-data">
+		<input type="hidden" name="id" value="{$a['id']}">
+	<!-- 修改分类 :	
+			<select name="type">
+		  	<?php foreach($type as $key =>$v) { ?>
+		  		<option value="{$key}">{$v['name']}</option>
+		 	<?php } ?>	
+		  	</select>
+			<br><br> -->
+	修改图片 :
+		<input type="file" name="image" value="{$a['img']}"><br>
+		<br><br>
+	修改地址 :
+		<input type="text" name="address" value="{$a['address']}"><br>
+	<!-- 修改状态 : -->
+		<!-- <input type="text" name="status" value="{$a['status']}"> -->
+		<input type="submit" name=""><br>
+
+	</form>
+</body>
+</html>
