@@ -79,7 +79,7 @@ body{
 }
 .center ul{
 	list-style: none;
-	height:6rem;
+	height:3rem;
 	border-bottom: 0.7rem solid #ddd;
 }
 .center ul:nth-child(2){

@@ -3,7 +3,7 @@ namespace Home\Model;
 use Think\Model;
 class CourseModel extends Model{ 
 	function lists($where,$id){
-		$course = M('course')->where($where)->field('id,name,head_image,image')->limit(5)->select();
+		$course = M('course')->where($where)->field('id,name,head_image,image')->limit(7)->select();
                 foreach ($course as $key => $value) {
                   $course_id = array('status'=>1,'course_id'=>$value['id']);
                   $is_id = array('course_id'=>$value['id'],'user_id'=>$id);
@@ -25,7 +25,6 @@ class CourseModel extends Model{
   function info($id){
         $course_info = M('course')->where(array('id'=>$id,'status'=>1))->field('image,name,id')->find();
         $course_info['image'] = 'http://toget.cn'.$course_info['image'];
-
         $course_info['zt_num'] = D('course')->getzt($id);
         $course_info['zj_num'] = D('course')->getzj($id);
         $course_info['mn_num'] = D('course')->getmn($id);

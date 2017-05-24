@@ -22,11 +22,14 @@
 		<div class="pointer">
 			<p><span class="owner" v-for="items in drugs"></span></p>
 		</div>
-		<div class="sign" v-for="(items,index) in drug" @click="ok(index)">
-			<img :src="items.head_image">
-			<p>{{items.name}}</p>
-			<p class="sign_p"><span><i class="fa fa-pencil"></i>{{items.do_num}}人做过</span><span @click.stop="onclick(index)"><i :class="items.is_collect_status==true?'fa fa-star':'fa fa-star-o'"></i>{{items.collect_num}}人收藏</span></p>
+		<div id="content">
+			<div class="sign" v-for="(items,index) in drug" @click="ok(index)">
+				<img :src="items.head_image">
+				<p>{{items.name}}</p>
+				<p class="sign_p"><span><i class="fa fa-pencil"></i>{{items.do_num}}人做过</span><span @click.stop="onclick(index)"><i :class="items.is_collect_status==true?'fa fa-star':'fa fa-star-o'"></i>{{items.collect_num}}人收藏</span></p>
+			</div>
 		</div>
+		
 		<!-- <div class="sign">
 			<img src="./image/java.png" >
 			<p>java语言程序设计</p>
@@ -40,7 +43,7 @@
 		<div class="bottom_div" @click="classify">
 			<img src="/Public/Api/image/four.jpg" alt=""><p>分类</p>
 		</div>
-		<div class="bottom_div">
+		<div class="bottom_div" @click="mine">
 			<img src="/Public/Api/image/person.png" alt=""><p>我的</p>
 		</div>
 	</div>
@@ -135,6 +138,9 @@
 		methods:{
 			classify:function(){
 			window.location.href="/index.php/Api/category/lists";
+			},
+			mine:function(){
+				window.location.href="/index.php/Api/user/reg";
 			}
 		}
 	})

@@ -28,12 +28,11 @@
 		<div class="bottom_div">
 			<img src="/Public/Api/image/classify.jpg" alt=""><p class="color">分类</p>
 		</div>
-		<div class="bottom_div">
+		<div class="bottom_div" @click="mine">
 			<img src="/Public/Api/image/person.png" alt=""><p>我的</p>
 		</div>
 	</div>
-</div>
-	
+</div>	
 <script>
 	var vm=new Vue({
 		el:"#opp",
@@ -66,7 +65,10 @@
 				window.location.href="cate.html?parent_id="+parent_id+"&name="+name+"";
 			},
 			ok:function(){
-				window.location.href="home.html";
+				window.location.href="/index.php/Api/index/index.html";
+			},
+			mine:function(){
+				window.location.href="/index.php/Api/user/reg";
 			}
 
 		}

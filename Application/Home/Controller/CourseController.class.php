@@ -10,7 +10,7 @@ class CourseController extends Controller {
 		$this->ajaxReturn($result);
     }
     public function getchapter(){
-        $course_id = I('post.course_id',0); 
+        $course_id = I('post.course_id',1); 
         if(!$course_id){
             $result  = array('status'=>'error','msg'=>'参数错误');
             $this->ajaxReturn($result);
@@ -27,7 +27,7 @@ class CourseController extends Controller {
     }
     public function lists(){
         $user_id = I('post.user_id');
-        $category = I('post.category_id',10);
+        $category = I('post.category_id',48);
         $where = array('status'=>1,'category_id'=>$category);
         $course = D('course')->lists($where);
         $name = M('category')->where(array('category'=>$category))->field('name')->find();

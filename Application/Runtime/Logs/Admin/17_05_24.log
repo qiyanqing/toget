@@ -1,16 +1,16 @@
-[ 2017-05-23T13:48:09+08:00 ] 127.0.0.1 /index.php/admin/category/index
+[ 2017-05-24T18:29:19+08:00 ] 127.0.0.1 /index.php/admin/category/index
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
-INFO: [ app_init ] --END-- [ RunTime:0.199100s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001794s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.049705s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.049876s ]
-SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.3059s ]
-SQL: SELECT * FROM `we_category`  [ RunTime:0.0011s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020811s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `we_category`  [ RunTime:0.0014s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.137912s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.138145s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
@@ -61,28 +61,74 @@ NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\App
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.265846s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.266030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116020s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.083148s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.083313s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.039758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039903s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044202s ]
-INFO: [ app_end ] --END-- [ RunTime:0.044332s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003372s ]
 
-[ 2017-05-23T21:08:22+08:00 ] 127.0.0.1 /index.php/admin/category/index
+[ 2017-05-24T20:25:59+08:00 ] 127.0.0.1 /index.php/admin/category/index
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.088142s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
-SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0306s ]
-SQL: SELECT * FROM `we_category`  [ RunTime:0.0299s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.103500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.103597s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.1419s ]
+SQL: SELECT * FROM `we_category`  [ RunTime:0.0014s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
@@ -133,191 +179,58 @@ NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\App
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
 NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186870s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.186926s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.263171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.263307s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024124s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.024179s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.050866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.051119s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
-
-[ 2017-05-23T21:25:24+08:00 ] 127.0.0.1 /index.php/admin/category/index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001938s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
-SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0051s ]
-SQL: SELECT * FROM `we_category`  [ RunTime:0.0007s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015369s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.015467s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
-
-[ 2017-05-23T21:43:58+08:00 ] 127.0.0.1 /index.php/admin/category/index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
-SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0032s ]
-SQL: SELECT * FROM `we_category`  [ RunTime:0.0005s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 23 行.
-NOTIC: [8] Use of undefined constant id - assumed 'id' F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006902s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.006973s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
-
-[ 2017-05-23T21:44:10+08:00 ] 127.0.0.1 /index.php/admin/course/index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
-ERR: 非法操作:index
-
-[ 2017-05-23T21:44:36+08:00 ] 127.0.0.1 /index.php/admin/course/lists
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002091s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
-NOTIC: [8] Undefined index: page F:\XAMPP\htdocs\toget\Application\Admin\Controller\CourseController.class.php 第 58 行.
-SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0029s ]
-SQL: SELECT COUNT(id) AS tp_count FROM `we_course` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0003s ]
-SQL: SELECT * FROM `we_course` WHERE ( status=1 ) LIMIT 0,1   [ RunTime:0.0003s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
-NOTIC: [8] Undefined variable: course F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\26930e3e68d27dd46c7e92f9d073cf40.php 第 20 行.
-NOTIC: [2] Invalid argument supplied for foreach() F:\XAMPP\htdocs\toget\Application\Runtime\Cache\Admin\26930e3e68d27dd46c7e92f9d073cf40.php 第 20 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.036203s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.052334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.052514s ]
 

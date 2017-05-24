@@ -68,7 +68,7 @@
 				})
 			},
 			hold:function(){
-				window.location.href="home.html";
+				window.history.go(-1);
 			},
 			onClick:function(){
 				var course_id=id;

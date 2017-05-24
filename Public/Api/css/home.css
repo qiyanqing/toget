@@ -5,6 +5,7 @@ html,body,p,ul,li{
 }
 i{
 	color:#6b47d7;
+	background-color: red;
 }
 .clearfix{
 	height:0;
@@ -17,6 +18,13 @@ i{
 	height:3rem;
 	line-height: 3rem;
 	text-align: center;
+	position: relative;
+}
+.app_p img{
+	position: absolute;
+}
+#content{
+	padding-bottom: 2rem;
 }
 .App_p{
 	font-size: 2rem;
