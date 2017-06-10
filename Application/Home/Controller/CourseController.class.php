@@ -30,6 +30,7 @@ class CourseController extends Controller {
         $category = I('post.category_id',48);
         $where = array('status'=>1,'category_id'=>$category);
         $course = D('course')->lists($where);
+        //var_dump($course);
         $name = M('category')->where(array('category'=>$category))->field('name')->find();
         $result = array('status'=>'ok','lists'=>$course,'name'=>$name);
         $this->ajaxReturn($result);

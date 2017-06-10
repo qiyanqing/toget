@@ -129,7 +129,7 @@
 				return false;
 			};
 			$.ajax({
-				url:"http:toget.cn/index.php/home/user/reg",
+				url:"/index.php/home/user/reg",
 				type:"post",
 				dataType:"json",
 				data: {
@@ -140,7 +140,7 @@
 				},
 				success:function(res){
 					alert(res.msg)
-					location.href="mobile.html"
+					location.href="login.html"
 				},
 				
 				error:function(){

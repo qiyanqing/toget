@@ -17,7 +17,7 @@
 		<p class="app_p"><img src="__PUBLIC__/Api/image/return.png">java语言程序设计<img src="__PUBLIC__/Api/image/star.png"></p>
 	</div>
 	<div>
-		<p class="opp_p" v-for="items in drug.lists" @click="click">{{items.name}}<img src="__PUBLIC__/Api/image/more.png" alt=""></p>
+		<p class="opp_p" v-for="items in drug.lists" @click="click(items)">{{items.name}}<img src="__PUBLIC__/Api/image/more.png" alt=""></p>
 	</div>
 	
 </div>
@@ -47,16 +47,19 @@ var id=getQueryStr("course_id");
 					success:function(res){
 						if(res.status!="error"){
 							this.drug=res;
-							console.log(res);
+							console.log(res.lists);
 						}
 					}.bind(this)
  
 				})
 			},
-			click:function(){
+			click:function(items){
 				var course_id=id;
-				var num=1
-				window.location.href="question.html?id="+course_id+"&num="+num+"";
+				var num=1;
+				var chapter_id=items.id;
+				var name=items.name;
+				console.log(id)
+				window.location.href="question.html?id="+course_id+"&num="+num+"&chapter_id="+chapter_id+"";
 			}
 		}
 	})

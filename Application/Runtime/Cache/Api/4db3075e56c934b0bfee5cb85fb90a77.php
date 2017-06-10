@@ -12,14 +12,14 @@
 </head>
 <body>
 <div id="app">
-		<p class="app_p"><img src="/Public/Api/image/return.png">题库</p>
+		<p class="app_p"><img src="/Public/Api/image/return.png" @click="onClick">题库</p>
 		<!-- <div class="sign" v-for="(items,index) in drug" @click="ok(index)">
 			<img :src="items.img">
 			<p>{{items.name}}</p>
 			<p class="sign_p"><span><i class="fa fa-pencil"></i>{{items.user_done_num}}人做过</span><span><i class="fa fa-star-o"></i>20人收藏</span></p>
 		</div> -->
 		<div class="sign" v-for="(items,index) in list" @click="click(index)">
-			<img :src="items.image">
+			<img :src="items.head_image">
 			<p v-if="renter">{{items.name}}</p>
 			<p class="sign_p"><span><i class="fa fa-pencil"></i>{{items.do_num}}人做过</span><span><i class="fa fa-star-o"></i>{{items.collect_num}}人收藏</span></p>
 		</div>
@@ -63,6 +63,9 @@ var user_id=localStorage.getItem("user_id");
 				// console.log(name)
 				window.location.href="detail.html?id="+id+"";
 					
+			},
+			onClick:function(){
+				window.history.go(-1);
 			}
 	}
 })

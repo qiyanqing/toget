@@ -1,0 +1,1360 @@
+[ 2017-06-09T15:31:56+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012089s ]
+SQL: SHOW COLUMNS FROM `we_ad` [ RunTime:0.0737s ]
+SQL: SELECT `id`,`img`,`address` FROM `we_ad` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0570s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 LIMIT 7   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0293s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+
+[ 2017-06-09T15:32:10+08:00 ] 127.0.0.1 /index.php/home/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2017-06-09T15:32:36+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `we_ad` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`img`,`address` FROM `we_ad` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0037s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+
+[ 2017-06-09T15:32:57+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `we_ad` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`img`,`address` FROM `we_ad` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+
+[ 2017-06-09T15:33:06+08:00 ] 127.0.0.1 /index.php/home/category/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0004s ]
+
+[ 2017-06-09T15:33:18+08:00 ] 127.0.0.1 /index.php/home/category/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0004s ]
+
+[ 2017-06-09T15:33:19+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `we_ad` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`img`,`address` FROM `we_ad` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = 56 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+
+[ 2017-06-09T15:33:22+08:00 ] 127.0.0.1 /index.php/home/category/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 0  [ RunTime:0.0004s ]
+
+[ 2017-06-09T15:33:23+08:00 ] 127.0.0.1 /index.php/home/category/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `we_category` WHERE `status` = 1 AND `parent_id` = 1  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 8  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`id` FROM `we_category` WHERE `status` = 1 AND `parent_id` = 9  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-09T15:33:25+08:00 ] 127.0.0.1 /home/course/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0038s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CourseModel::lists(), called in F:\XAMPP\htdocs\toget\Application\Home\Controller\CourseController.class.php on line 32 and defined F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 AND `category_id` = 48 LIMIT 7   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0027s ]
+SQL: SELECT `name` FROM `we_category` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-09T15:33:27+08:00 ] 127.0.0.1 /index.php/home/course/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0307s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0029s ]
+SQL: SELECT `image`,`name`,`id` FROM `we_course` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_test` [ RunTime:0.0349s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0430s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `course_id` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `status` = 2 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-06-09T15:33:28+08:00 ] 127.0.0.1 /index.php/home/course/getchapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `we_chapter` WHERE `status` > 0 AND `course_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-09T15:33:30+08:00 ] 127.0.0.1 /index.php/home/question/getquestion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `we_chapter` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_question` [ RunTime:0.0114s ]
+SQL: SELECT `id`,`sn`,`stem`,`question_type`,`explain` FROM `we_question` WHERE `status` = 1 AND `course_id` = 1 AND `type` = 1 AND `obj_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_answer` [ RunTime:0.0179s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 9  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 10  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 11  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 12  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 13  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 15  [ RunTime:0.0002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\toget\Application\Home\Controller\QuestionController.class.php:28) F:\XAMPP\htdocs\toget\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-06-09T15:33:33+08:00 ] 127.0.0.1 /index.php/home/course/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0475s ]
+SQL: SELECT `image`,`name`,`id` FROM `we_course` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_test` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `course_id` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `status` = 2 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-06-09T15:33:46+08:00 ] 127.0.0.1 /index.php/home/course/getchapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `we_chapter` WHERE `status` > 0 AND `course_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-09T15:33:48+08:00 ] 127.0.0.1 /index.php/home/question/getquestion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `we_chapter` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_question` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`sn`,`stem`,`question_type`,`explain` FROM `we_question` WHERE `status` = 1 AND `course_id` = 1 AND `type` = 1 AND `obj_id` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_answer` [ RunTime:0.0029s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 9  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 10  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 11  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 12  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 13  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 14  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 15  [ RunTime:0.0001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\toget\Application\Home\Controller\QuestionController.class.php:28) F:\XAMPP\htdocs\toget\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-06-09T15:33:50+08:00 ] 127.0.0.1 /index.php/home/course/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0031s ]
+SQL: SELECT `image`,`name`,`id` FROM `we_course` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_test` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `course_id` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `status` = 2 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-06-09T15:33:52+08:00 ] 127.0.0.1 /index.php/home/course/getchapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `we_chapter` WHERE `status` > 0 AND `course_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-06-09T15:33:53+08:00 ] 127.0.0.1 /index.php/home/question/getquestion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0046s ]
+SQL: SELECT `name` FROM `we_chapter` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_question` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`sn`,`stem`,`question_type`,`explain` FROM `we_question` WHERE `status` = 1 AND `course_id` = 1 AND `type` = 1 AND `obj_id` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_answer` [ RunTime:0.0031s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 9  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 10  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 11  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 12  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 13  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 15  [ RunTime:0.0002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\XAMPP\htdocs\toget\Application\Home\Controller\QuestionController.class.php:28) F:\XAMPP\htdocs\toget\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2017-06-09T15:33:59+08:00 ] 127.0.0.1 /index.php/home/course/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0038s ]
+SQL: SELECT `image`,`name`,`id` FROM `we_course` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_test` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `course_id` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `status` = 2 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-09T15:37:04+08:00 ] 127.0.0.1 /index.php/home/course/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0029s ]
+SQL: SELECT `image`,`name`,`id` FROM `we_course` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_test` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `course_id` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `status` = 2 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-09T15:37:06+08:00 ] 127.0.0.1 /index.php/home/course/getchapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `we_chapter` WHERE `status` > 0 AND `course_id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-06-09T15:37:07+08:00 ] 127.0.0.1 /index.php/home/question/getquestion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0032s ]
+SQL: SELECT `name` FROM `we_chapter` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_question` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`sn`,`stem`,`question_type`,`explain` FROM `we_question` WHERE `status` = 1 AND `course_id` = 1 AND `type` = 1 AND `obj_id` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `we_answer` [ RunTime:0.0047s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 9  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 10  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 11  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 12  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 13  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 14  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`is_true`,`sn` FROM `we_answer` WHERE `question_id` = 15  [ RunTime:0.0002s ]
+
+[ 2017-06-09T15:44:46+08:00 ] 127.0.0.1 /index.php/home/course/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0028s ]
+SQL: SELECT `image`,`name`,`id` FROM `we_course` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_test` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `course_id` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `status` = 2 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-09T15:45:04+08:00 ] 127.0.0.1 /home/course/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0037s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CourseModel::lists(), called in F:\XAMPP\htdocs\toget\Application\Home\Controller\CourseController.class.php on line 32 and defined F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 AND `category_id` = 48 LIMIT 7   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `we_category` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-09T15:45:05+08:00 ] 127.0.0.1 /index.php/home/course/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0028s ]
+SQL: SELECT `image`,`name`,`id` FROM `we_course` WHERE `id` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_test` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 2 AND `type` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `course_id` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `status` = 2 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 2 AND `type` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 2 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-09T15:45:07+08:00 ] 127.0.0.1 /home/course/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0029s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CourseModel::lists(), called in F:\XAMPP\htdocs\toget\Application\Home\Controller\CourseController.class.php on line 32 and defined F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 AND `category_id` = 48 LIMIT 7   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0358s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `we_category` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-09T15:45:08+08:00 ] 127.0.0.1 /index.php/home/course/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0059s ]
+SQL: SELECT `image`,`name`,`id` FROM `we_course` WHERE `id` = 3 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_test` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 3 AND `type` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `course_id` = 3 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `status` = 2 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 3 AND `type` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 3 AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-09T15:45:09+08:00 ] 127.0.0.1 /home/course/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 2 for Home\Model\CourseModel::lists(), called in F:\XAMPP\htdocs\toget\Application\Home\Controller\CourseController.class.php on line 32 and defined F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0035s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 AND `category_id` = 48 LIMIT 7   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: id F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 9 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `we_category` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `we_category` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-09T15:45:11+08:00 ] 127.0.0.1 /index.php/home/course/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0048s ]
+SQL: SELECT `image`,`name`,`id` FROM `we_course` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_test` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `we_chapter` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `course_id` = 1 AND `status` > 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_chapter` WHERE `status` = 2 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `course_id` = 1 AND `type` = 2 AND `status` > 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_test` WHERE `status` = 2 AND `course_id` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-06-09T16:02:59+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `we_ad` [ RunTime:0.0281s ]
+SQL: SELECT `id`,`img`,`address` FROM `we_ad` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+
+[ 2017-06-09T16:05:08+08:00 ] 127.0.0.1 /index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `we_ad` [ RunTime:0.0033s ]
+SQL: SELECT `id`,`img`,`address` FROM `we_ad` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0033s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+
+[ 2017-06-09T16:05:54+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-06-09T16:06:25+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-06-09T16:06:42+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-06-09T16:06:43+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-06-09T16:06:43+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-06-09T16:07:18+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-06-09T16:10:12+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003249s ]
+
+[ 2017-06-09T16:10:13+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-06-09T16:10:14+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-06-09T16:10:15+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-06-09T16:10:15+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-06-09T16:10:15+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-06-09T16:10:15+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-06-09T16:21:38+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-06-09T16:38:59+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `we_ad` [ RunTime:0.0037s ]
+SQL: SELECT `id`,`img`,`address` FROM `we_ad` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0037s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+
+[ 2017-06-09T17:05:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `we_ad` [ RunTime:0.0105s ]
+SQL: SELECT `id`,`img`,`address` FROM `we_ad` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `we_course` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`name`,`head_image`,`image` FROM `we_course` WHERE `status` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `we_collection` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 1 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 2 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 3 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 4 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 5 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 6 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `we_collection` WHERE `status` = 1 AND `course_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `we_collection` WHERE `course_id` = 7 AND `user_id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: lists F:\XAMPP\htdocs\toget\Application\Home\Model\CourseModel.class.php 第 13 行.
+
+[ 2017-06-09T21:29:00+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007948s ]
+
+[ 2017-06-09T21:29:21+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-06-09T21:29:49+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001874s ]
+
+[ 2017-06-09T21:29:51+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2017-06-09T21:33:24+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2017-06-09T21:33:25+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-06-09T21:34:21+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-06-09T21:34:22+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-06-09T21:34:22+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-06-09T21:34:22+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-06-09T21:34:57+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-06-09T21:34:57+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-06-09T21:34:57+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-06-09T21:34:57+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-06-09T21:34:58+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-06-09T21:34:58+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-06-09T21:38:00+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-06-09T21:38:12+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2017-06-09T21:38:13+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-06-09T21:41:16+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2017-06-09T21:42:07+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-06-09T21:42:08+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-06-09T21:42:08+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-06-09T21:42:08+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-06-09T21:42:26+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-06-09T21:42:27+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-06-09T21:42:27+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-06-09T21:42:36+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-06-09T21:42:45+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-06-09T21:43:06+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-06-09T21:43:07+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-06-09T21:43:12+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-06-09T21:43:21+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-06-09T21:43:33+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2017-06-09T21:50:45+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-06-09T22:14:11+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-06-09T22:16:27+08:00 ] 127.0.0.1 /index.php/home/app/ceshi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+

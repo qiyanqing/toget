@@ -36,6 +36,7 @@
 	</div>
 <script>
 var id=getQueryStr("id");
+var chapter_id=getQueryStr("chapter_id");
 var num=getQueryStr("num");
 	var vm=new Vue({
 		el:"#opp",
@@ -63,6 +64,7 @@ var num=getQueryStr("num");
 					url:"/index.php/home/question/getquestion",
 					data:{
 						course_id:id,
+						chapter_id:chapter_id,
 						obj_id:id,
 						type:num,
 					},
@@ -124,7 +126,7 @@ var num=getQueryStr("num");
 				this.shows=true;
 			},
 			left:function(){
-				window.location.href="details.html"
+				window.history.go(-2);
 			},
 			right:function(){
 				this.show=false;

@@ -13,7 +13,7 @@
 <body>
 <div id="ok">
 	<div class="app">
-		<p class="app_p" v-if="renter"><img src="/Public/Api/image/return.png" >{{drugs.cate_info.name}}<img src="/Public/Api/image/Search.png"></p>
+		<p class="app_p" v-if="renter"><img src="/Public/Api/image/return.png" @click="click">{{drugs.cate_info.name}}<img src="/Public/Api/image/Search.png"></p>
 	</div>
 	<div class="center">
 		<div class="center_div" v-for="(items,index1) in drugs.lists">
@@ -63,9 +63,9 @@
 		// var name=this.drugs.lists[index1].child[index].name;
 		window.location.href="course_l.html?id="+category_id+"";
 	},
-	// hold:function(){
-	// 	window.location.href="classify.html"
-	// }
+	click:function(){
+		window.history.go(-1);
+	}
 	}
 })
 	</script>
